@@ -40,7 +40,8 @@ three impedance matching circuits:
 The utility also performs a validation
 of the subcircuit to ensure
 the matching actually works.  If the validation
-fails an error will be thrown.
+fails an error will be thrown.  See the Spice
+comment, Zin, in the subcircuit.
 
 ## Walkthrough
 
