@@ -27,7 +27,7 @@ To generate a netlist to match a source impedance of
 
 
 ```
-$ python3 network.py --name lcc_output --source 10+10j -q 3 --frequency 7e6 --lcc
+$ python3 rfnetwork.py --name lcc_output --source 10+10j -q 3 --frequency 7e6 --lcc
 * Fd  = 7 MHz
 * BW  = 2.33333 MHz
 * Q   = 3
@@ -47,7 +47,7 @@ To generate a Tee network instead use:
 
 
 ```
-$ python3 network.py --name tee_output --source 10+10j -q 3 --frequency 7e6 --tee
+$ python3 rfnetwork.py --name tee_output --source 10+10j -q 3 --frequency 7e6 --tee
 * Fd  = 7 MHz
 * BW  = 2.33333 MHz
 * Q   = 3
@@ -69,7 +69,7 @@ In addition because an error gets thrown for a Q of 3, change Q to 5 instead.
 
 
 ```
-$ python3 network.py --name pi_output --source 1000-100j -q 5 --frequency 7e6 --pi
+$ python3 rfnetwork.py --name pi_output --source 1000-100j -q 5 --frequency 7e6 --pi
 * Fd  = 7 MHz
 * BW  = 1.4 MHz
 * Q   = 5
@@ -90,7 +90,7 @@ If you want to reverse the network, say to match the input of an amplifier, use 
 
 
 ```
-$ python3 network.py --name pi_input -r --source 1000-100j -q 5 --frequency 7e6 --pi
+$ python3 rfnetwork.py --name pi_input -r --source 1000-100j -q 5 --frequency 7e6 --pi
 * Fd  = 7 MHz
 * BW  = 1.4 MHz
 * Q   = 5
@@ -123,9 +123,9 @@ The utility's command line usage is as follows:
 
 
 ```
-$ python3 network.py --help
-usage: network.py [-h] [-n NAME] [-s SOURCE] [-l LINE] [-q QUALITY]
-                  [-f FREQUENCY] [-b BANDWIDTH] [-r] [--lcc] [--tee] [--pi]
+$ python3 rfnetwork.py --help
+usage: rfnetwork.py [-h] [-n NAME] [-s SOURCE] [-l LINE] [-q QUALITY]
+                    [-f FREQUENCY] [-b BANDWIDTH] [-r] [--lcc] [--tee] [--pi]
 
 optional arguments:
   -h, --help            show this help message and exit
