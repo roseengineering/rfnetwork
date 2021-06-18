@@ -30,7 +30,7 @@ which match the input impedance of
 a source to the output impedance of 
 a load.
 
-The python utility supports 
+The python utility supports
 three impedance matching circuits:
 
 1. The LCC Match
@@ -42,6 +42,8 @@ of the subcircuit to ensure
 the matching actually works.  If the validation
 fails an error will be thrown.  See the Spice
 comment, Zin, in the subcircuit.
+
+Complex load impedances are not supported.
 
 ## Walkthrough
 
