@@ -139,11 +139,11 @@ def main():
     zin = validate(cir, mode, zg, rl)
 
     if args.reverse:
-        cir = list(reversed(cir)) 
+        cir = list(reversed(cir))
 
     if not f: 
         print('The subcircuit cannot be printed since no frequency has given.') 
-        print('Here are the impedances instead', cir)
+        print('Here are the impedances instead:', list(cir))
         return
 
     print('* Fd  = {:.6g} MHz'.format(f / 1e6))
