@@ -58,7 +58,7 @@ To generate a Tee network instead use:
 
 Since a Pi network is impractical for small load source impedances, let's
 assume the source impedance is 1000-100j.
-In addition because an error gets thrown for a Q of 3, change Q to 5 instead.
+In addition because an error gets thrown for a Q of 3, change the Q to 5 instead.
 
 {run("python3 rfnetwork.py --name pi_output --source 1000-100j -q 5 --frequency 7e6 --pi")}
 
