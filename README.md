@@ -85,7 +85,7 @@ C3 2 0 243.663pF
 ```
 
 
-If you want to reverse the network, say to match the input of an amplifier, use the
+If you want to reverse the network, say to match the input of a (high input impedance) amplifier, use the
 --reverse option.
 
 

@@ -59,7 +59,7 @@ In addition because an error gets thrown for a Q of 3, change Q to 5 instead.
 
 {run("python3 rfnetwork.py --name pi_output --source 1000-100j -q 5 --frequency 7e6 --pi")}
 
-If you want to reverse the network, say to match the input of an amplifier, use the
+If you want to reverse the network, say to match the input of a (high input impedance) amplifier, use the
 --reverse option.
 
 {run("python3 rfnetwork.py --name pi_input -r --source 1000-100j -q 5 --frequency 7e6 --pi")}
