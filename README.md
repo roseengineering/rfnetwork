@@ -151,6 +151,6 @@ optional arguments:
 See the image before for the impedance matching
 networks supported:
 
-![](network.png)
+![](networks.png)
 
 
