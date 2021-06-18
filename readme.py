@@ -48,7 +48,7 @@ Complex load impedances are not supported.
 ## Walkthrough
 
 To generate a netlist to match a source impedance of 
-10+10j ohms at 7 Mhz to a load of 50 ohms with a Q of 3 using a LCC network run:
+10+10j ohms at 7 Mhz to a load of 50 ohms using a LCC network with a Q of 3 run:
 
 {run("python3 rfnetwork.py --name lcc_output --source 10+10j -q 3 --frequency 7e6 --lcc")}
 
@@ -62,8 +62,7 @@ In addition because an error gets thrown for a Q of 3, change the Q to 5 instead
 
 {run("python3 rfnetwork.py --name pi_output --source 1000-100j -q 5 --frequency 7e6 --pi")}
 
-If you want to reverse the network, say to match the input of a (high input impedance) amplifier, use the
---reverse option.
+If you want to reverse the network, for example to match the line to the input of a (high-Z) amplifier, use the --reverse option.
 
 {run("python3 rfnetwork.py --name pi_input -r --source 1000-100j -q 5 --frequency 7e6 --pi")}
 

@@ -26,7 +26,7 @@ Complex load impedances are not supported.
 ## Walkthrough
 
 To generate a netlist to match a source impedance of 
-10+10j ohms at 7 Mhz to a load of 50 ohms with a Q of 3 using a LCC network run:
+10+10j ohms at 7 Mhz to a load of 50 ohms using a LCC network with a Q of 3 run:
 
 
 ```
@@ -88,8 +88,7 @@ C3 2 0 243.663pF
 ```
 
 
-If you want to reverse the network, say to match the input of a (high input impedance) amplifier, use the
---reverse option.
+If you want to reverse the network, for example to match the line to the input of a (high-Z) amplifier, use the --reverse option.
 
 
 ```
