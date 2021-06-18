@@ -6,7 +6,7 @@ Rfnetwork.py is a simple utility for
 generating Spice netlist subcircuits 
 which match the input impedance of
 a source to the output impedance of 
-a load.
+a load or, as usually is the case, the line.
 
 The python utility supports
 three impedance matching circuits:
@@ -21,7 +21,7 @@ the matching actually works.  If the validation
 fails an error will be thrown.  See the Spice
 comment, Zin, in the subcircuit.
 
-Complex load impedances are not supported.
+Complex load (or line) impedances are not supported.
 
 ## Walkthrough
 
