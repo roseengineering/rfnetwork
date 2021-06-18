@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Network.py is a simple utility for 
+Rfnetwork.py is a simple utility for 
 generating Spice netlist subcircuits 
 which match the input impedance of
 a source to the output impedance of 
