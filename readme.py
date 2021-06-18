@@ -20,7 +20,7 @@ $ {command}
 
 
 print(f"""\
-# Nanocli
+# Rfnetwork
 
 ## Introduction
 
