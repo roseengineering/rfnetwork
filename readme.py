@@ -81,7 +81,7 @@ The utility's command line usage is as follows:
 See the image before for the impedance matching
 networks supported:
 
-![](network.png)
+![](networks.png)
 
 """)
 
